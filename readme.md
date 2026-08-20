@@ -86,8 +86,9 @@ The four 1B configs were loaded with `AutoConfig` and instantiated with
 - SWA/Transformer hybrid: 18 memory-disabled GMSWA/SWA + 6 full `Attention` layers, about 1.213B parameters.
 - GDN/Transformer hybrid: 18 `GatedDeltaNet` + 6 full `Attention` layers, about 1.478B parameters.
 
-## Paper and results
+## Local experiment artifacts
 
-Paper drafts, figures, and structured evaluation outputs are kept under `paper/`,
-`shiyan/`, and `eval_results/`. Transient logs, scratch prompts, backup files, LaTeX
-auxiliaries, checkpoints, and tensorboard runs are ignored or removed from the branch.
+Paper materials, experiment datasets, evaluation outputs, logs, checkpoints, and
+TensorBoard runs are intentionally excluded from this code repository. The relevant
+paths are listed in `.gitignore` so local runs do not accidentally commit generated
+artifacts.

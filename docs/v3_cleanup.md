@@ -1,6 +1,6 @@
 # v3 cleanup notes
 
-This branch keeps the GMSWA implementation, training configs, paper sources, and reproducible eval/result summaries, while removing scratch prompts, transient backup files, generated LaTeX auxiliaries, and local run checkpoints/logs.
+This branch keeps the GMSWA implementation and training configs while excluding paper materials, experiment datasets, evaluation outputs, scratch prompts, transient backup files, generated LaTeX auxiliaries, and local run checkpoints/logs.
 
 Important config boundary:
 - `gated_mem_swa_v3_clean_1B.json` is the clean formal GMSWA 1B config: evicted-only memory, separate NoPE memory projections, and memory short-conv.

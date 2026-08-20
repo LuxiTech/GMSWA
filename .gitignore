@@ -6,6 +6,13 @@ __pycache__/
 
 logs/
 
+# Local paper materials, datasets, and generated evaluation artifacts
+/paper/
+/eval_results/
+/shiyan/data/
+/shiyan/results/
+/shiyan/paper_assets/
+
 *.log
 *.out
 *.distcp
